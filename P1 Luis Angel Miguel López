@@ -1,0 +1,19 @@
+#include<stdio.h>
+char *productos [] = {
+	"Gorra", "Playera", "Sudadera", "Pantalon", "Cinturon"
+};
+float numeros [3][5] = {{240.0, 180.0, 490.0, 380.0, 140.0},
+						{10.0, 10.0, 10.0, 10.0, 10.0},
+						{0.0, 0.0, 0.0, 0.0, 0.0}
+						};
+
+#include"mostrar_productos.c"
+#include"agregar_producto.c"
+#include"eliminar_producto.c"
+#include"mostrar_carrito.c"					
+#include"menu.c"
+
+int main(){
+	menu();
+	return 0;
+}
